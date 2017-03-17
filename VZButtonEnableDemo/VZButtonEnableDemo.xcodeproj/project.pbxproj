@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7800B6AE1E7BB8A200583D04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800B6AD1E7BB8A200583D04 /* main.m */; };
+		7800B6B11E7BB8A200583D04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800B6B01E7BB8A200583D04 /* AppDelegate.m */; };
+		7800B6B41E7BB8A200583D04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800B6B31E7BB8A200583D04 /* ViewController.m */; };
+		7800B6B71E7BB8A200583D04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7800B6B51E7BB8A200583D04 /* Main.storyboard */; };
+		7800B6BA1E7BB8A200583D04 /* VZButtonEnableDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7800B6B81E7BB8A200583D04 /* VZButtonEnableDemo.xcdatamodeld */; };
+		7800B6BC1E7BB8A200583D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7800B6BB1E7BB8A200583D04 /* Assets.xcassets */; };
+		7800B6BF1E7BB8A200583D04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7800B6BD1E7BB8A200583D04 /* LaunchScreen.storyboard */; };
+		7800B6CA1E7BB8A200583D04 /* VZButtonEnableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800B6C91E7BB8A200583D04 /* VZButtonEnableDemoTests.m */; };
+		7800B6D51E7BB8A200583D04 /* VZButtonEnableDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800B6D41E7BB8A200583D04 /* VZButtonEnableDemoUITests.m */; };
+		7800B6E61E7BB8B300583D04 /* UIButton+EnabledCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800B6E31E7BB8B300583D04 /* UIButton+EnabledCondition.m */; };
+		7800B6E71E7BB8B300583D04 /* VZButtonEnabledCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800B6E51E7BB8B300583D04 /* VZButtonEnabledCondition.m */; };
+		7800B6EC1E7BBA1000583D04 /* login_check_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7800B6E81E7BBA1000583D04 /* login_check_selected@2x.png */; };
+		7800B6ED1E7BBA1000583D04 /* login_check_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7800B6E91E7BBA1000583D04 /* login_check_selected@3x.png */; };
+		7800B6EE1E7BBA1000583D04 /* login_check_unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7800B6EA1E7BBA1000583D04 /* login_check_unselected@2x.png */; };
+		7800B6EF1E7BBA1000583D04 /* login_check_unselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7800B6EB1E7BBA1000583D04 /* login_check_unselected@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7800B6C61E7BB8A200583D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7800B6A11E7BB8A200583D04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7800B6A81E7BB8A200583D04;
+			remoteInfo = VZButtonEnableDemo;
+		};
+		7800B6D11E7BB8A200583D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7800B6A11E7BB8A200583D04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7800B6A81E7BB8A200583D04;
+			remoteInfo = VZButtonEnableDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7800B6A91E7BB8A200583D04 /* VZButtonEnableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VZButtonEnableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7800B6AD1E7BB8A200583D04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7800B6AF1E7BB8A200583D04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7800B6B01E7BB8A200583D04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7800B6B21E7BB8A200583D04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7800B6B31E7BB8A200583D04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7800B6B61E7BB8A200583D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7800B6B91E7BB8A200583D04 /* VZButtonEnableDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VZButtonEnableDemo.xcdatamodel; sourceTree = "<group>"; };
+		7800B6BB1E7BB8A200583D04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7800B6BE1E7BB8A200583D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7800B6C01E7BB8A200583D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7800B6C51E7BB8A200583D04 /* VZButtonEnableDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VZButtonEnableDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7800B6C91E7BB8A200583D04 /* VZButtonEnableDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZButtonEnableDemoTests.m; sourceTree = "<group>"; };
+		7800B6CB1E7BB8A200583D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7800B6D01E7BB8A200583D04 /* VZButtonEnableDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VZButtonEnableDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7800B6D41E7BB8A200583D04 /* VZButtonEnableDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZButtonEnableDemoUITests.m; sourceTree = "<group>"; };
+		7800B6D61E7BB8A200583D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7800B6E21E7BB8B300583D04 /* UIButton+EnabledCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnabledCondition.h"; sourceTree = "<group>"; };
+		7800B6E31E7BB8B300583D04 /* UIButton+EnabledCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnabledCondition.m"; sourceTree = "<group>"; };
+		7800B6E41E7BB8B300583D04 /* VZButtonEnabledCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VZButtonEnabledCondition.h; sourceTree = "<group>"; };
+		7800B6E51E7BB8B300583D04 /* VZButtonEnabledCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VZButtonEnabledCondition.m; sourceTree = "<group>"; };
+		7800B6E81E7BBA1000583D04 /* login_check_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_check_selected@2x.png"; sourceTree = "<group>"; };
+		7800B6E91E7BBA1000583D04 /* login_check_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_check_selected@3x.png"; sourceTree = "<group>"; };
+		7800B6EA1E7BBA1000583D04 /* login_check_unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_check_unselected@2x.png"; sourceTree = "<group>"; };
+		7800B6EB1E7BBA1000583D04 /* login_check_unselected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_check_unselected@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7800B6A61E7BB8A200583D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7800B6C21E7BB8A200583D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7800B6CD1E7BB8A200583D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7800B6A01E7BB8A200583D04 = {
+			isa = PBXGroup;
+			children = (
+				7800B6AB1E7BB8A200583D04 /* VZButtonEnableDemo */,
+				7800B6C81E7BB8A200583D04 /* VZButtonEnableDemoTests */,
+				7800B6D31E7BB8A200583D04 /* VZButtonEnableDemoUITests */,
+				7800B6AA1E7BB8A200583D04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7800B6AA1E7BB8A200583D04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7800B6A91E7BB8A200583D04 /* VZButtonEnableDemo.app */,
+				7800B6C51E7BB8A200583D04 /* VZButtonEnableDemoTests.xctest */,
+				7800B6D01E7BB8A200583D04 /* VZButtonEnableDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7800B6AB1E7BB8A200583D04 /* VZButtonEnableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7800B6E81E7BBA1000583D04 /* login_check_selected@2x.png */,
+				7800B6E91E7BBA1000583D04 /* login_check_selected@3x.png */,
+				7800B6EA1E7BBA1000583D04 /* login_check_unselected@2x.png */,
+				7800B6EB1E7BBA1000583D04 /* login_check_unselected@3x.png */,
+				7800B6E21E7BB8B300583D04 /* UIButton+EnabledCondition.h */,
+				7800B6E31E7BB8B300583D04 /* UIButton+EnabledCondition.m */,
+				7800B6E41E7BB8B300583D04 /* VZButtonEnabledCondition.h */,
+				7800B6E51E7BB8B300583D04 /* VZButtonEnabledCondition.m */,
+				7800B6AF1E7BB8A200583D04 /* AppDelegate.h */,
+				7800B6B01E7BB8A200583D04 /* AppDelegate.m */,
+				7800B6B21E7BB8A200583D04 /* ViewController.h */,
+				7800B6B31E7BB8A200583D04 /* ViewController.m */,
+				7800B6B51E7BB8A200583D04 /* Main.storyboard */,
+				7800B6BB1E7BB8A200583D04 /* Assets.xcassets */,
+				7800B6BD1E7BB8A200583D04 /* LaunchScreen.storyboard */,
+				7800B6C01E7BB8A200583D04 /* Info.plist */,
+				7800B6B81E7BB8A200583D04 /* VZButtonEnableDemo.xcdatamodeld */,
+				7800B6AC1E7BB8A200583D04 /* Supporting Files */,
+			);
+			path = VZButtonEnableDemo;
+			sourceTree = "<group>";
+		};
+		7800B6AC1E7BB8A200583D04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7800B6AD1E7BB8A200583D04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7800B6C81E7BB8A200583D04 /* VZButtonEnableDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7800B6C91E7BB8A200583D04 /* VZButtonEnableDemoTests.m */,
+				7800B6CB1E7BB8A200583D04 /* Info.plist */,
+			);
+			path = VZButtonEnableDemoTests;
+			sourceTree = "<group>";
+		};
+		7800B6D31E7BB8A200583D04 /* VZButtonEnableDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7800B6D41E7BB8A200583D04 /* VZButtonEnableDemoUITests.m */,
+				7800B6D61E7BB8A200583D04 /* Info.plist */,
+			);
+			path = VZButtonEnableDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7800B6A81E7BB8A200583D04 /* VZButtonEnableDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7800B6D91E7BB8A200583D04 /* Build configuration list for PBXNativeTarget "VZButtonEnableDemo" */;
+			buildPhases = (
+				7800B6A51E7BB8A200583D04 /* Sources */,
+				7800B6A61E7BB8A200583D04 /* Frameworks */,
+				7800B6A71E7BB8A200583D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VZButtonEnableDemo;
+			productName = VZButtonEnableDemo;
+			productReference = 7800B6A91E7BB8A200583D04 /* VZButtonEnableDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7800B6C41E7BB8A200583D04 /* VZButtonEnableDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7800B6DC1E7BB8A200583D04 /* Build configuration list for PBXNativeTarget "VZButtonEnableDemoTests" */;
+			buildPhases = (
+				7800B6C11E7BB8A200583D04 /* Sources */,
+				7800B6C21E7BB8A200583D04 /* Frameworks */,
+				7800B6C31E7BB8A200583D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7800B6C71E7BB8A200583D04 /* PBXTargetDependency */,
+			);
+			name = VZButtonEnableDemoTests;
+			productName = VZButtonEnableDemoTests;
+			productReference = 7800B6C51E7BB8A200583D04 /* VZButtonEnableDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7800B6CF1E7BB8A200583D04 /* VZButtonEnableDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7800B6DF1E7BB8A200583D04 /* Build configuration list for PBXNativeTarget "VZButtonEnableDemoUITests" */;
+			buildPhases = (
+				7800B6CC1E7BB8A200583D04 /* Sources */,
+				7800B6CD1E7BB8A200583D04 /* Frameworks */,
+				7800B6CE1E7BB8A200583D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7800B6D21E7BB8A200583D04 /* PBXTargetDependency */,
+			);
+			name = VZButtonEnableDemoUITests;
+			productName = VZButtonEnableDemoUITests;
+			productReference = 7800B6D01E7BB8A200583D04 /* VZButtonEnableDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7800B6A11E7BB8A200583D04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					7800B6A81E7BB8A200583D04 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5W4X8YL4Y6;
+						ProvisioningStyle = Automatic;
+					};
+					7800B6C41E7BB8A200583D04 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5W4X8YL4Y6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7800B6A81E7BB8A200583D04;
+					};
+					7800B6CF1E7BB8A200583D04 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5W4X8YL4Y6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7800B6A81E7BB8A200583D04;
+					};
+				};
+			};
+			buildConfigurationList = 7800B6A41E7BB8A200583D04 /* Build configuration list for PBXProject "VZButtonEnableDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7800B6A01E7BB8A200583D04;
+			productRefGroup = 7800B6AA1E7BB8A200583D04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7800B6A81E7BB8A200583D04 /* VZButtonEnableDemo */,
+				7800B6C41E7BB8A200583D04 /* VZButtonEnableDemoTests */,
+				7800B6CF1E7BB8A200583D04 /* VZButtonEnableDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7800B6A71E7BB8A200583D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7800B6ED1E7BBA1000583D04 /* login_check_selected@3x.png in Resources */,
+				7800B6BF1E7BB8A200583D04 /* LaunchScreen.storyboard in Resources */,
+				7800B6EF1E7BBA1000583D04 /* login_check_unselected@3x.png in Resources */,
+				7800B6BC1E7BB8A200583D04 /* Assets.xcassets in Resources */,
+				7800B6EE1E7BBA1000583D04 /* login_check_unselected@2x.png in Resources */,
+				7800B6EC1E7BBA1000583D04 /* login_check_selected@2x.png in Resources */,
+				7800B6B71E7BB8A200583D04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7800B6C31E7BB8A200583D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7800B6CE1E7BB8A200583D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7800B6A51E7BB8A200583D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7800B6B41E7BB8A200583D04 /* ViewController.m in Sources */,
+				7800B6E71E7BB8B300583D04 /* VZButtonEnabledCondition.m in Sources */,
+				7800B6E61E7BB8B300583D04 /* UIButton+EnabledCondition.m in Sources */,
+				7800B6B11E7BB8A200583D04 /* AppDelegate.m in Sources */,
+				7800B6AE1E7BB8A200583D04 /* main.m in Sources */,
+				7800B6BA1E7BB8A200583D04 /* VZButtonEnableDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7800B6C11E7BB8A200583D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7800B6CA1E7BB8A200583D04 /* VZButtonEnableDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7800B6CC1E7BB8A200583D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7800B6D51E7BB8A200583D04 /* VZButtonEnableDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7800B6C71E7BB8A200583D04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7800B6A81E7BB8A200583D04 /* VZButtonEnableDemo */;
+			targetProxy = 7800B6C61E7BB8A200583D04 /* PBXContainerItemProxy */;
+		};
+		7800B6D21E7BB8A200583D04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7800B6A81E7BB8A200583D04 /* VZButtonEnableDemo */;
+			targetProxy = 7800B6D11E7BB8A200583D04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7800B6B51E7BB8A200583D04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7800B6B61E7BB8A200583D04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7800B6BD1E7BB8A200583D04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7800B6BE1E7BB8A200583D04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7800B6D71E7BB8A200583D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7800B6D81E7BB8A200583D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7800B6DA1E7BB8A200583D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5W4X8YL4Y6;
+				INFOPLIST_FILE = VZButtonEnableDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vz..VZButtonEnableDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7800B6DB1E7BB8A200583D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5W4X8YL4Y6;
+				INFOPLIST_FILE = VZButtonEnableDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vz..VZButtonEnableDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7800B6DD1E7BB8A200583D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5W4X8YL4Y6;
+				INFOPLIST_FILE = VZButtonEnableDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vz..VZButtonEnableDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VZButtonEnableDemo.app/VZButtonEnableDemo";
+			};
+			name = Debug;
+		};
+		7800B6DE1E7BB8A200583D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5W4X8YL4Y6;
+				INFOPLIST_FILE = VZButtonEnableDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vz..VZButtonEnableDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VZButtonEnableDemo.app/VZButtonEnableDemo";
+			};
+			name = Release;
+		};
+		7800B6E01E7BB8A200583D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5W4X8YL4Y6;
+				INFOPLIST_FILE = VZButtonEnableDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vz..VZButtonEnableDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VZButtonEnableDemo;
+			};
+			name = Debug;
+		};
+		7800B6E11E7BB8A200583D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5W4X8YL4Y6;
+				INFOPLIST_FILE = VZButtonEnableDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vz..VZButtonEnableDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VZButtonEnableDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7800B6A41E7BB8A200583D04 /* Build configuration list for PBXProject "VZButtonEnableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7800B6D71E7BB8A200583D04 /* Debug */,
+				7800B6D81E7BB8A200583D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7800B6D91E7BB8A200583D04 /* Build configuration list for PBXNativeTarget "VZButtonEnableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7800B6DA1E7BB8A200583D04 /* Debug */,
+				7800B6DB1E7BB8A200583D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7800B6DC1E7BB8A200583D04 /* Build configuration list for PBXNativeTarget "VZButtonEnableDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7800B6DD1E7BB8A200583D04 /* Debug */,
+				7800B6DE1E7BB8A200583D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7800B6DF1E7BB8A200583D04 /* Build configuration list for PBXNativeTarget "VZButtonEnableDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7800B6E01E7BB8A200583D04 /* Debug */,
+				7800B6E11E7BB8A200583D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7800B6B81E7BB8A200583D04 /* VZButtonEnableDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7800B6B91E7BB8A200583D04 /* VZButtonEnableDemo.xcdatamodel */,
+			);
+			currentVersion = 7800B6B91E7BB8A200583D04 /* VZButtonEnableDemo.xcdatamodel */;
+			path = VZButtonEnableDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7800B6A11E7BB8A200583D04 /* Project object */;
+}
